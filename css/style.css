@@ -1,0 +1,29 @@
+body { 
+  background: url(../images/nightsky.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#container {
+	width: 300px;
+	margin: 30px auto;
+	background: rgba(255,255,255,0.7);
+	padding: 30px;
+}
+
+ul { 
+	list-style: none;
+}
+
+.pull-right {float: right;}
+img { margin: 10px;}
+.clear { clear: both;}
+
+
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
